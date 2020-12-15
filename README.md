@@ -90,6 +90,8 @@ Create a cloud DNS entry in GCE and give the domain name as `example.tk`
 
 Take the NS (name server) entry from Cloud DNS and add them to freenom.com configuration
 
+Add a recordset in google cloud DNS of type A with the load balancer IP and domain name `keycloak.example.tk`
+
 ## Deploy cert-manager for SSL
 
 ```console
