@@ -2,6 +2,13 @@
 
 **Goal: To setup keycloak with public free domain into GKE cluster using nginx controller instead of gce ingress controller.**
 
+## Tools Used
+
+- gcloud
+- kustomize
+- helm 3
+- kubectl
+
 ## Create GKE cluster and storage class
 
 ```console
